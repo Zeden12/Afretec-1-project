@@ -1,0 +1,120 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+header {
+    background-size: cover;
+    background-image: url('../assets/background.jpg');
+    background-repeat: no-repeat;
+    height: 500px;
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    /* justify-content: space-between; */
+}
+
+.navigations{
+    margin-top: 20px;
+    display: flex;
+    justify-content: space-between;
+}
+
+.navigations ul{
+    list-style: none;
+    display: flex;
+    justify-content: space-between;
+}
+
+.navigations ul li{
+    margin: 0 10px;
+    font-size: 20px;
+    cursor: pointer;
+}
+
+.navigations ul li a{
+    color: white;
+    text-decoration: none;
+}
+
+header img{
+    width: 100px;
+    height: 100px;
+    margin-right: 20px;
+}
+
+.search{
+    padding: 140px;
+}
+
+.search input[type="text"]{
+    width: 400px;
+    padding: 10px;
+    border-radius: 10px;
+    text-align: center;
+}
+
+.search input[type="text"]:focus{
+    outline: none;
+}
+
+main{
+    padding: 2em 0;
+}
+
+.filter ul{
+    display: flex;
+    flex-direction: row;
+    list-style: none;
+    justify-content: space-around;
+}
+
+.filter ul li{
+    margin: 0 10px;
+    font-size: 20px;
+    cursor: pointer;
+    color: brown;
+}
+
+main .card{
+    display: flex;
+    padding: 2em 0;
+    justify-content: space-between;
+}
+
+main .card .events{
+    flex: 1;
+    padding: 2em;
+    border: 1px solid #ccc;
+    margin-right: 20px;
+}
+
+main .card .events img{
+    width: 150px;
+    height: 200px;
+    object-fit: cover;
+    background-color: #ccc;
+}
+
+main .card .info{
+    flex: 3;
+    padding: 2em;
+}
+
+main .card .info h2{
+    margin-bottom: 10px;
+}
+
+footer{
+    background-color: #333;
+    color: white;
+    padding: 20px;
+    text-align: center;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    height: 100px;
+    
+}
+
