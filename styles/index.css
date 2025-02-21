@@ -105,6 +105,15 @@ main .card .info h2{
     margin-bottom: 10px;
 }
 
+.pagination{
+    display: flex;
+    justify-content: center;
+    margin-top: 20px;
+    align-items: center;
+    flex-wrap: wrap;
+    gap: 20px;
+}
+
 footer{
     background-color: #333;
     color: white;
